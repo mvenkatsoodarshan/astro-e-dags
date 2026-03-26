@@ -1,8 +1,4 @@
-name: deploy-astro
-# on:
-#   push:
-#     branches:
-#       - main
+name: deploy-to-astro
 on:
   workflow_dispatch
 env:
