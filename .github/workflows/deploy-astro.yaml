@@ -9,6 +9,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
     - name: Deploy to Astro
       uses: astronomer/deploy-action@v0.10.1
       with:
