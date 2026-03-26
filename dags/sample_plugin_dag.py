@@ -25,7 +25,7 @@ with DAG(
     'sample_plugin_dag',
     default_args=default_args,
     description='A simple tutorial DAG using a custom hook and operator',
-    schedule_interval=timedelta(days=1),
+    schedule=timedelta(days=1),
     start_date=datetime(2023, 1, 1),
     catchup=False,
     tags=['example', 'custom-plugin'],
