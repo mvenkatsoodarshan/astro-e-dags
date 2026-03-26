@@ -17,7 +17,7 @@ on:
 
 env:
   ASTRO_API_TOKEN: ${{ inputs.apiToken || secrets.ASTRO_API_TOKEN }}
-  DEPLOYMENT_ID: cmn7bv7xq2dzi01p97jgb8uc5
+  DEPLOYMENT_ID: cmn7d7hxw2flx01kywz7fva36
 
 jobs:
   build:
